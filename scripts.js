@@ -39,21 +39,6 @@ var result=resturantCost(26);
 
 
 
-function nameList(arry){
-  var word='hazratali';
-  for( var x=0; x<arry.length; x++){
-    if(word.length<arry[x].length){
-      word=arry[x];
-    }
-
-  }
-
-  return word;
-
-
-}
-
-var result=nameList(['hazrat','nibir','ali'])
 
 
 
